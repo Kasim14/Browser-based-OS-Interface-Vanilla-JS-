@@ -82,7 +82,7 @@ function openWindow(e) {
         </div>
     `
     const openWindows = container.querySelectorAll(".windows-container");
-    const offset = openWindows.length * 60;
+    const offset = openWindows.length * 40;
     console.log("Number of open windows:", openWindows.length);
 
     windowDiv.style.left = (window.innerWidth / 2 - 200) + "px";
